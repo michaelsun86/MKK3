@@ -32,7 +32,6 @@ And('user select card') do
 end
 
 And('user fill Form 1') do
-  Form1_Screen()
   User_Name()
   Ident_Number()
   Phone_Number()
@@ -54,7 +53,6 @@ And('user fill Form 1') do
 end
 
 And('user fill Form 2') do
-  Form2_Screen()
   Company_Name()
   Code_Area()
   Company_Phone()
@@ -72,7 +70,6 @@ And('user fill Form 2') do
 end
 
 And('user fill Form 3') do
-  Form3_Screen()
   Family_Name()
   Family_Relation("Orang Tua")
   Family_Phone()
@@ -80,7 +77,6 @@ And('user fill Form 3') do
 end  
 
 And('user fill Form 4') do
-  Form4_Screen()
   Shipping_Address1()
   Billing_Method1()
   Account_Number()
@@ -90,25 +86,21 @@ And('user fill Form 4') do
 end  
 
 Then('user fill Data Usage Approval') do
-  DataAppr_Screen()
   Data_Approval2()
   Next_Button()
 end  
 
 And('user fill App Approval field') do
-  AppAppr_Screen()
   App_Approval()
   Next_Button()
 end  
 
 And('user fill Power Bill field') do
-  PowBill_Screen()
   Power_Bill("-- Pilih tipe power bill --")
   Next_Button()
 end  
 
 And('user Add Additional Data') do
-  AddData_Screen()
   Additional_Photo()
   Data_Name()
   Data_Type("Data 3")
@@ -117,7 +109,6 @@ And('user Add Additional Data') do
 end  
 
 And('user agree on Data Summary') do
-  DataSum_Screen()
   Agree_Button()
 end  
 

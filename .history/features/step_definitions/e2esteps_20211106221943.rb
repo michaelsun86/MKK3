@@ -108,7 +108,6 @@ And('user fill Power Bill field') do
 end  
 
 And('user Add Additional Data') do
-  AddData_Screen()
   Additional_Photo()
   Data_Name()
   Data_Type("Data 3")
@@ -117,7 +116,6 @@ And('user Add Additional Data') do
 end  
 
 And('user agree on Data Summary') do
-  DataSum_Screen()
   Agree_Button()
 end  
 

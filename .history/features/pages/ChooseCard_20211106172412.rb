@@ -1,7 +1,7 @@
 def ChooseCard_Screen()
-    title1 = $driver.find_element(:xpath, '//div[@class="animated fadeIn"]/div[2]/div/div/div[1]/p[1]').text
-    if title1 == "Apply Kartu Kredit"
-        log("Apply Kartu Kredit screen true")
+    title = $driver.find_element(:xpath, '//div[@class="animated fadeIn"]/div[2]/div/div/div[1]/p[1]').text
+    if title == "Apply Kartu Kredit"
+        log("Apply Kartu Kredit appears")
     end
     sleep(2)
 end        

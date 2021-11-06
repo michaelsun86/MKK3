@@ -1,7 +1,7 @@
 def Form2_Screen()
     title3 = $driver.find_element(:xpath, '//div[@class="animated fadeIn"]/div/div[2]/div/div[2]/div/p').text
     if title3 = "Data Pekerjaan"
-        log("Data Pekerjaan screen true")
+        log("Data Pribadi screen true")
     end
     sleep(2)
 end        

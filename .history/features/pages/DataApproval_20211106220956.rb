@@ -1,6 +1,6 @@
 def DataAppr_Screen()
-    title6 = $driver.find_element(:xpath, '//div[@class="animated fadeIn"]/div/div[2]/div/div/div/p').text
-    if title6 = "Persetujuan Penggunaan Data"
+    title5 = $driver.find_element(:xpath, '//div[@class="animated fadeIn"]/div/div[2]/div/div/div/p').text
+    if title5 = "Persetujuan Penggunaan Data"
         log("Persetujuan Penggunaan Data screen true")
     end
     sleep(2)

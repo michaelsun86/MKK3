@@ -117,7 +117,6 @@ And('user Add Additional Data') do
 end  
 
 And('user agree on Data Summary') do
-  DataSum_Screen()
   Agree_Button()
 end  
 

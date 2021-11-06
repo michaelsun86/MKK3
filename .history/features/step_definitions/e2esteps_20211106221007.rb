@@ -96,19 +96,16 @@ Then('user fill Data Usage Approval') do
 end  
 
 And('user fill App Approval field') do
-  AppAppr_Screen()
   App_Approval()
   Next_Button()
 end  
 
 And('user fill Power Bill field') do
-  PowBill_Screen()
   Power_Bill("-- Pilih tipe power bill --")
   Next_Button()
 end  
 
 And('user Add Additional Data') do
-  AddData_Screen()
   Additional_Photo()
   Data_Name()
   Data_Type("Data 3")
@@ -117,7 +114,6 @@ And('user Add Additional Data') do
 end  
 
 And('user agree on Data Summary') do
-  DataSum_Screen()
   Agree_Button()
 end  
 

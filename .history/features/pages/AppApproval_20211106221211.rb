@@ -1,6 +1,6 @@
 def AppAppr_Screen()
-    title7 = $driver.find_element(:xpath, '//div[@class="animated fadeIn"]/div/div[2]/div/div/div/p').text
-    if title7 = "Persetujuan"
+    title5 = $driver.find_element(:xpath, '//div[@class="animated fadeIn"]/div/div[2]/div/div/div/p').text
+    if title5 = "Persetujuan"
         log("Persetujuan screen true")
     end
     sleep(2)

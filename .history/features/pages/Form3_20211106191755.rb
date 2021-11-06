@@ -1,4 +1,4 @@
-def Form3_Screen()
+def Form4_Screen()
     title4 = $driver.find_element(:xpath, '//div[@class="animated fadeIn"]/div/div[2]/div/div[2]/div/p').text
     if title4 = "Data Keluarga Dekat"
         log("Data Keluarga screen true")
